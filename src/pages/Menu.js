@@ -9,6 +9,7 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
+import "../styles/MenuStyles.css";
 
 const Menu = () => {
   return (
@@ -22,6 +23,7 @@ const Menu = () => {
                 component={"img"}
                 src={menu.image}
                 alt={menu.name}
+                className="menu-image"
               />
               <CardContent>
                 <Typography variant="h5" gutterBottom component={"div"}>
