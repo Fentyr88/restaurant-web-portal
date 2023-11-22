@@ -46,6 +46,12 @@ const Header = () => {
         <li>
           <NavLink to={"/contact"}>Contacto</NavLink>
         </li>
+        <li>
+          <NavLink to={"/login"}>Iniciar sesión</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/buy"}>$ 🛒</NavLink>
+        </li>
       </ul>
     </Box>
   );
@@ -96,6 +102,9 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink to={"/contact"}>Contacto</NavLink>
+                </li>
+                <li>
+                  <NavLink to={"/login"}>Iniciar sesión</NavLink>
                 </li>
                 <li>
                   <NavLink to={"/buy"}>$ 🛒</NavLink>

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:white /* replace with your theme background1 color */;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mainButton {
+    background-color: #545d69/* replace with your theme secondaryColor */;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 140px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    height: 50px;
+  }
