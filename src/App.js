@@ -6,6 +6,8 @@ import Menu from "./pages/Menu";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Pagenotfound from "./pages/Pagenotfound";
+import Reservations from "./pages/Reservations";
+import Payments  from "./pages/Payments";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/reservations" element={<Reservations />} />
+          <Route path="/buy" element={<Payments />} />
           <Route path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>

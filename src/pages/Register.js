@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-//import ButtonStyles from "../../common/styles/ButtonStyles";
 import { useNavigate } from "react-router-dom";
 import "../styles/RegisterStyles.css";
 import Layout from "./../components/Layout/Layout";
 
-//import Swal from "sweetalert2";
 
 const RegisterPage = () => {
   const [username, setUsername] = useState("");
@@ -17,34 +15,6 @@ const RegisterPage = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // if (password !== passwordConfirm) {
-    //   Swal.fire({
-    //     icon: "error",
-    //     title: "Oops...",
-    //     text: "¡Las contraseñas no coinciden!",
-    //   });
-    //   return;
-    // }
-
-  
-
-    // if (!response.error) {
-    //   Swal.fire({
-    //     icon: "success",
-    //     title: "¡Usuario creado exitosamente!",
-    //     showConfirmButton: false,
-    //     timer: 1500,
-    //   });
-    //   setTimeout(() => {
-    //     navigate("/login");
-    //   }, 1500);
-    // } else {
-    //   Swal.fire({
-    //     icon: "error",
-    //     title: "Oops...",
-    //     text: "¡Error al crear el usuario!",
-    //   });
-    // }
     setUsername("");
     setPassword("");
     setFullname("");

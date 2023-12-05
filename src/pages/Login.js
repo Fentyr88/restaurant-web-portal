@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "./../components/Layout/Layout";
 import logo from "../images/logo.jpg";
-
-//import Swal from "sweetalert2";
 import "../styles/LoginStyles.css";
 
 
@@ -14,23 +12,6 @@ const Login = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-   
-    // if (!response.error) {
-    //   localStorage.setItem("userId", response.userId);
-    //   localStorage.setItem("name", response.name);
-    //   localStorage.setItem("username", response.username);
-    //   localStorage.setItem("email", response.email);
-    //   localStorage.setItem("phoneNumber", response.phoneNumber);
-      
-    //   navigate("/dashboard");
-    // } else {
-    //   /*Swal.fire({
-    //     icon: "error",
-    //     title: "Oops...",
-    //     text: "¡Usuario y/o contraseña incorrectos!",
-    //   });
-    //   */
-    // }
     setUsername("");
     setPassword("");
   };

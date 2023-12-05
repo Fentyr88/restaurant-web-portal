@@ -41,6 +41,9 @@ const Header = () => {
           <NavLink to={"/menu"}>Menú</NavLink>
         </li>
         <li>
+          <NavLink to={"/reservations"}>Reservas</NavLink>
+        </li>
+        <li>
           <NavLink to={"/about"}>Nosotros</NavLink>
         </li>
         <li>
@@ -50,7 +53,7 @@ const Header = () => {
           <NavLink to={"/login"}>Iniciar sesión</NavLink>
         </li>
         <li>
-          <NavLink to={"/buy"}>$ 🛒</NavLink>
+          <NavLink to={"/buy"}>$Pedidos 🛒</NavLink>
         </li>
       </ul>
     </Box>
@@ -95,7 +98,7 @@ const Header = () => {
                   <NavLink to={"/menu"}>Menú</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/bookings"}>Reservas</NavLink>
+                  <NavLink to={"/reservations"}>Reservas</NavLink>
                 </li>
                 <li>
                   <NavLink to={"/about"}>Nosotros</NavLink>
@@ -107,7 +110,7 @@ const Header = () => {
                   <NavLink to={"/login"}>Iniciar sesión</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/buy"}>$ 🛒</NavLink>
+                  <NavLink to={"/buy"}>$Pedidos 🛒</NavLink>
                 </li>
               </ul>
             </Box>
